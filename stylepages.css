@@ -1,0 +1,73 @@
+body {
+    font-family: 'Lilita One', cursive;
+    background-color: aliceblue;
+}
+
+h1 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 300%;
+    color: red;
+	margin-top: 50px;
+}
+
+th, td {
+    font-size: 200%;
+    padding: 20px;
+    color: blue;
+    border: 1px solid grey;
+}
+
+td {
+    text-align: left;
+}
+
+th {
+    text-align: center;
+    color: blue;
+
+}
+
+input {
+    padding: 10px;
+    font-size: large;
+}
+
+#searchinput {
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+span {
+    font-size: 70%;
+    color: black
+}
+
+#searchresults {
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    table-layout: fixed;
+}
+
+#searchresults td{
+    font-size: large;
+}
+
+.button {
+    background-color: coral;
+    border-radius: 15px;
+    font-size: 150%;
+    padding: 10Px;
+    margin: 15px;
+  }
+
+.centerbutton {
+    text-align: center;
+    margin-top: 30px;
+}

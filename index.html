@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Search YYC</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet">
+    <!-- custom CSS file -->
+    <link href="styledata.css" rel="stylesheet" type="text/css">
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.css"
+      rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"></script>
+
+    <script src="content.js"></script>
+
+    </head>
+  <body>
+
+    
+  <main>
+    <h1>Welcome to Calgary</h1>
+    <section>
+    <!-- Carousel wrapper -->
+    <div
+      id="carouselMultiItemExample"
+      class="carousel slide carousel-dark text-center"
+      data-mdb-ride="carousel"
+    >
+      <!-- Controls -->
+      <div class="d-flex justify-content-center mb-4">
+        <button
+          class="carousel-control-prev position-relative"
+          type="button"
+          data-mdb-target="#carouselMultiItemExample"
+          data-mdb-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <h2>Open Data Search</h2>
+        <button
+          class="carousel-control-next position-relative"
+          type="button"
+          data-mdb-target="#carouselMultiItemExample"
+          data-mdb-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      
+      <!-- Inner -->
+      <div class="carousel-inner py-4">
+        <!-- Single item -->
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card">
+                  <img
+                    src="pics/rental.jpg"
+                    class="card-img-top"
+                    alt="rental picture"
+                    id="rentalpic">
+                  <div class="card-body">
+                    <h5 class="card-title">Short Term Rental</h5>
+                    <a href="searchrental.html" class="btn btn-primary">Search</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 d-none d-lg-block">
+                <div class="card">
+                  <img
+                    src="pics/childcare.jpg"
+                    class="card-img-top"
+                    alt="childcare picture"
+                    id="childcarepic">
+                  <div class="card-body">
+                    <h5 class="card-title">Childcare Program</h5>
+                    <a href="searchchildcare.html" class="btn btn-primary">Search</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 d-none d-lg-block">
+                <div class="card">
+                  <img
+                    src="pics/crime.jpg"
+                    class="card-img-top"
+                    alt="crime picture"
+                    id="crimepic">
+                  <div class="card-body">
+                    <h5 class="card-title">Crime Statistics</h5>
+                    <a href="searchcrimesta.html" class="btn btn-primary">Search</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-12">
+                <div class="card">
+                  <img
+                    src="pics/bus.jpg"
+                    class="card-img-top"
+                    alt="bus picture"
+                    id="buspic"
+>
+                  <div class="card-body">
+                    <h5 class="card-title">Bus Stop Tracker</h5>
+                    <a href="searchbus.html" class="btn btn-primary">Search</a>
+                  </div>
+                </div>
+              </div>       
+      <!-- Inner -->
+
+    </div>
+    <!-- Carousel wrapper -->
+    </section>
+    <div id="content">
+      <span id="details"></span>
+    </div>
+</main>
+
+  
+
+  
+</body>
+</html>
