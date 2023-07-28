@@ -22,6 +22,16 @@
         <tr><td>Enter the Program Name<br></td><td><input type="text" id="program"></td></tr>
         <tr><td>Enter the Address</td><td><input type="text" id="address"></td></tr>
         <tr><td>Enter the Type of Program</td><td><input type="text" id="typeProgram"></td></tr>
+        <tr><td>Filter Capacity
+                <select id="filter">
+                  <option value="empty"></option>
+                  <option value="more than">more than</option>
+                  <option value="less than">less than</option>
+                  <option value="equal to">equal to</option>
+                </select>
+              </td>
+            <td><input type="number" id="capacity"></td>
+        </tr>
     </table>
 
     <table id="searchresults">
